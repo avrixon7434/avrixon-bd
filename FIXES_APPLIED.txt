@@ -1,0 +1,11 @@
+AVRIXON V14 FINAL — TASK SEPARATION UPDATE
+
+1. Added tasks.task_type with values: public / business.
+2. Normal user task API returns only active PUBLIC tasks.
+3. Normal users can submit only PUBLIC tasks.
+4. Admin Task Library shows each task as Public or Business.
+5. Admin can create a task and choose Public (সাধারণ User Task) or Business (Business/Advertiser Task).
+6. Advertiser campaign approval creates a BUSINESS task.
+7. Existing campaign-linked tasks are automatically classified as BUSINESS on startup.
+8. Added 15 Bengali PUBLIC starter tasks with reward amounts from the approved list; they are inserted only when missing by title.
+9. Existing data is preserved; no task rows are deleted.

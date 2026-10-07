@@ -1,0 +1,13 @@
+AVRIXON V14 - Profile / Email / Image Update
+
+1. User registration remains PHONE + PASSWORD + OPTIONAL REFERRAL CODE only.
+2. Email is NOT requested during registration.
+3. Profile page added for logged-in users.
+4. Users can add/change display name after registration.
+5. Users can upload JPG/PNG/WEBP profile image, max 700KB.
+6. Users can add/change an email address after registration.
+7. Email verification uses a 6-digit code valid for 10 minutes.
+8. Verification code is stored hashed, not plain text.
+9. Production email delivery supports SMTP or Resend.
+10. Configure email environment variables before production deployment.
+11. Existing phone-created accounts keep their synthetic internal email until a real email is added.
